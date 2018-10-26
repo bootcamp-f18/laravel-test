@@ -1,3 +1,11 @@
+@extends('layout')
+
+@section('title')
+    Sample application index file
+@endsection
+
+@section('content')
+
 This is the things index file.
 
 <ul>
@@ -6,3 +14,5 @@ This is the things index file.
     <li><a href="/things/pizza">Pizza!</a></li>
     <li><a href="/things/paintball">Paintball</a></li>
 </ul>
+
+@endsection
